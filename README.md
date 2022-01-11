@@ -2,7 +2,7 @@
 
 This repo consists of the code used in my thesis where I applied Mixed Input Deep Q-learning to the stockmarket. In the repo you can find the following scripts:
 
-1) `data_scrapper.py` : Given a list of tickers it scrappes hirstocial data for stocks. 
+1) `data_scrapper.py` : Given a list of tickers it scrappes historical data for stocks. 
 2) `data_cleaner.ipynb` : Cleans the data outputted by the scapper.
 3) `Binary data generator.ipynb` : Takes the cleaned data and creates candlestick charts formatted and stores the numerical pixel data, where pixel values are scaled to [0,1].
 4) `Canlestick data generator.py` : Creates candlestick plots from the cleaned data. 
